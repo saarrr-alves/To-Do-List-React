@@ -10,7 +10,7 @@ function TodoItem({ todo }) {
   }, []);
 
   return (
-    <div className="flex items-center justify-between p-4 mb-2 rounded-lg shadow-md">
+    <li className="flex items-center justify-between p-4 mb-2 rounded-lg shadow-md">
       <label className="flex items-center gap-2">
         <input
           type="checkbox"
@@ -35,6 +35,7 @@ function TodoItem({ todo }) {
         </span>
       </label>
       <button
+        title={`Remover "${todo.text ?? 'tarefa'}"`}
         onClick={() => {
           console.info(`🗑️ Removendo Tarefa!`);
           if (window.confirm('Tem certeza que deseja remover esta tarefa?')) {
@@ -76,7 +77,7 @@ function TodoItem({ todo }) {
           />
         </svg>
       </button>
-    </div>
+    </li>
   );
 }
 
