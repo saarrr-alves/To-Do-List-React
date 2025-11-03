@@ -9,7 +9,7 @@ function TodoForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!valor.trim()) return;
+        if (!valor) return;
         addTodo(valor);
         limpar();
     };
