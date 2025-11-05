@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { useTodos } from '../context/TodoContext';
 import '../styles/TodoFilters.css';
 
