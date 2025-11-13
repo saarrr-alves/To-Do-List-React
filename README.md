@@ -22,7 +22,7 @@ Uma aplicação web interativa para gerenciar suas tarefas diárias de forma sim
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/saraasquid/to-do-list.git
+    git clone https://github.com/saarrr-alves/To-Do-List-React.git
     ```
 
 2. Acesse a pasta do projeto:
